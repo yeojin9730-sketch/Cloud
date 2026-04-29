@@ -20,7 +20,7 @@ jobs:
     steps:
       # (1) 레포 체크아웃
       - name: Checkout
-      # uses --> 이미 잘 짜여진 코드를 가져와서 실행하겠다!
+      # uses --> 이미 잘 짜여진 코드를 가져와서 실행하겠다
         uses: actions/checkout@v4
 
       # (2) React 빌드용 Node 세팅
